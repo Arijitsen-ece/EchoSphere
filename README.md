@@ -266,13 +266,11 @@ pytest tests -v
 
 ---
 
-# 📸 Screenshot
+### 🏠 Home Screen
 
-## Home
-
-```
-docs/screenshots/home.png
-```
+<p align="center">
+  <img src="docs/screenshots/home.png" alt="EchoSphere Home" width="100%">
+</p>
 
 ---
 
