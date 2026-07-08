@@ -158,51 +158,27 @@ EchoSphere
 
 ---
 
-# 📐 Software Architecture
+## 🏗️ Software Architecture
 
-```
-                User
+EchoSphere follows a clean layered architecture that separates the presentation layer from the business logic, making the project easier to maintain, extend, and test.
 
-                  │
+<p align="center">
+  <img src="docs/screenshots/architecture.png"
+       alt="EchoSphere Architecture"
+       width="100%">
+</p>
 
-                  ▼
+### Architecture Layers
 
-            Streamlit UI
+| Layer | Responsibility |
+|--------|----------------|
+| **User** | Interacts with the application through the browser |
+| **Streamlit UI (`app.py`)** | Coordinates the application flow and connects the UI with the business logic |
+| **UI Layer** | Handles all visual components including Header, Sidebar, Preview, Alerts, Cards and Footer |
+| **Utils Layer** | Provides shared constants, theme configuration and reusable helper functions |
+| **Core Layer** | Contains validation, processing, token estimation and formatting logic |
+| **Data Layer** | Stores transmission history in JSON format |
 
-                  │
-
-         ┌────────┴────────┐
-
-         ▼                 ▼
-
-     UI Components      Theme Engine
-
-         │
-
-         ▼
-
-    Business Logic
-
-         │
-
- ┌───────┼─────────┐
-
- ▼       ▼         ▼
-
-Validator Tokenizer Processor
-
-         │
-
-         ▼
-
-      Formatter
-
-         │
-
-         ▼
-
- JSON Storage (History)
-```
 
 ---
 
@@ -290,7 +266,7 @@ pytest tests -v
 
 ---
 
-# 📸 Screenshots
+# 📸 Screenshot
 
 ## Home
 
@@ -300,27 +276,6 @@ docs/screenshots/home.png
 
 ---
 
-## Successful Transmission
-
-```
-docs/screenshots/success.png
-```
-
----
-
-## System Check
-
-```
-docs/screenshots/system-check.png
-```
-
----
-
-## Sidebar
-
-```
-docs/screenshots/sidebar.png
-```
 
 ---
 
