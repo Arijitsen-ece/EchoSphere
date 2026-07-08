@@ -1,0 +1,9 @@
+{
+  "app_name": "EchoSphere",
+  "version": "1.0.0",
+  "theme": "dark",
+  "max_name_length": 60,
+  "max_message_length": 2000,
+  "chars_per_token": 4.0,
+  "assumed_context_window": 8000
+}

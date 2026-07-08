@@ -1,0 +1,50 @@
+[
+  {
+    "timestamp": "2026-07-08T14:25:23.238587+00:00",
+    "name": "AYAN SEN",
+    "message": "Hello Bro ....\nNice to meet you.",
+    "characters": 32,
+    "words": 7,
+    "estimated_tokens": 8
+  },
+  {
+    "timestamp": "2026-07-08T14:33:28.259996+00:00",
+    "name": "Pushpa",
+    "message": "Yeah yeah",
+    "characters": 9,
+    "words": 2,
+    "estimated_tokens": 3
+  },
+  {
+    "timestamp": "2026-07-08T14:57:16.102824+00:00",
+    "name": "sese",
+    "message": "seysye",
+    "characters": 8,
+    "words": 1,
+    "estimated_tokens": 2
+  },
+  {
+    "timestamp": "2026-07-08T15:10:37.656977+00:00",
+    "name": "Ayan Sen",
+    "message": "Hey, I just wanted to check in and see how you're doing.\nHope you're having a wonderful day! 😊",
+    "characters": 94,
+    "words": 19,
+    "estimated_tokens": 24
+  },
+  {
+    "timestamp": "2026-07-08T15:16:12.348781+00:00",
+    "name": "wfeqf",
+    "message": "wegweg",
+    "characters": 6,
+    "words": 1,
+    "estimated_tokens": 2
+  },
+  {
+    "timestamp": "2026-07-08T15:16:41.508099+00:00",
+    "name": "Rocky Bhai",
+    "message": "Kya Biru log",
+    "characters": 12,
+    "words": 3,
+    "estimated_tokens": 3
+  }
+]
